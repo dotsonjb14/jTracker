@@ -5,7 +5,9 @@
                 .state('test', {
                     url: "/test",
                     templateUrl: "partials/test.html",
-                    order: 99
+                    order: 99,
+                    controller: 'testController',
+                    controllerAs: 'vm'
                 })
         });
 })();

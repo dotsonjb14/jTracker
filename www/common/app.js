@@ -8,7 +8,9 @@
                     url: "/",
                     templateUrl: "partials/home.html",
                     displayName: "Home",
-                    order: 1
+                    order: 1,
+                    controller: 'homeController',
+                    controllerAs: 'vm'
                 })
         });
 })();

@@ -1,0 +1,35 @@
+{
+  "name": "jTracker",
+  "version": "0.0.0",
+  "authors": [
+    "Joseph Dotson <jdotson@ibs.com>"
+  ],
+  "description": "",
+  "main": "www/index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "bootstrap": "~3.3.5",
+    "angular-ui-router": "~0.2.15"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css"
+      ]
+    },
+    "jquery": {
+      "main": []
+    }
+  }
+}

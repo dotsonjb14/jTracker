@@ -1,0 +1,3 @@
+<ul class="nav nav-sidebar">
+    <li ng-repeat="state in states | orderBy:'order'" ng-if="state.name != ''"  ui-sref-active="active"><a ui-sref="{{state.name}}">{{ state.displayName || state.name }}</a></li>
+</ul>

@@ -1,0 +1,12 @@
+{
+  "name": "nw-demo",
+  "version": "0.0.1",
+  "main": "www/index.html",
+  "window": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-inject": "^3.0.0",
+    "run-sequence": "^1.1.4",
+    "wiredep": "^2.2.2"
+  }
+}
